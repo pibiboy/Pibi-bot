@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if(msg.content === 'a ver' || 'aver'){
-        msg.reply('al cine prro');
+    if(msg.content === 'a ver'){
+        msg.channel.send('al cine prro');
     }
 });
 
