@@ -7,8 +7,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     //a ver al cine prro.
-    if(msg.content.includes('a ver'||'A ver')){
+    if(msg.content.includes('a ver')){
         msg.channel.send('al cine prro');
+    }
+    if(msg.content.includes('A ver')){
+        msg.channel.send('Al cine prro');
     }
     //comando que inserta una foto de pibi.
     if(msg.content === '!pibi'){
