@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if(msg.content === 'a ver'){
+    if((msg.content === 'a ver')||(msg.content === 'A ver')){
         msg.channel.send('al cine prro');
     }
 });
