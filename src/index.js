@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 //a ver al cine prro.
 client.on('message', msg => {
-    if((msg.content.includes === 'a ver')||(msg.content.includes === 'A ver')){
+    if(msg.content.includes('a ver')||('A ver')){
         msg.channel.send('al cine prro');
     }
 });
