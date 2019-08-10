@@ -10,6 +10,9 @@ client.on('message', msg => {
     if(msg.content.includes('a ver')){
         msg.channel.send('a ver al cine prro');
     }
+});
+
+client.on('message', msg => {
     if(msg.content.includes('A ver')){
         msg.channel.send('A ver al cine prro');
     }
