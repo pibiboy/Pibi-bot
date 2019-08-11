@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if(msg.author.tag === 'Pibi#0120'){
+    if(msg.author.tag === 'caliXer#0186'){
         msg.channel.send('a oc');
     }
     //a ver al cine prro.
