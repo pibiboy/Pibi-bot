@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if(msg.author.tag === 'caliXer#0186'){
+    /*if(msg.author.tag === 'caliXer#0186'){
         msg.channel.send('a oc');
+    }*/
+    if((msg.author.tag === 'Pibi#0120') && (msg.author.includes('si o no raza'))){
+        msg.channel.send('si :3');
     }
     //a ver al cine prro.
     if(msg.content.includes('a ver')){
@@ -15,6 +18,19 @@ client.on('message', msg => {
     }
     if(msg.content.includes('A ver')){
         msg.channel.send('Al cine prro');
+    }
+    //esta prro
+    if(msg.content.includes('que juego')){
+        msg.channel.send('esta prro!')
+    }
+    if(msg.content.includes('Que juego')){
+        msg.channel.send('Esta prro!')
+    }
+    if(msg.content.includes('como')){
+        msg.channel.send('esta prro!')
+    }
+    if(msg.content.includes('Como')){
+        msg.channel.send('esta prro!')
     }
     //comando que inserta una foto de pibi.
     if(msg.content === '!pibi'){
