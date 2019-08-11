@@ -9,7 +9,7 @@ client.on('message', msg => {
     /*if(msg.author.tag === 'caliXer#0186'){
         msg.channel.send('a oc');
     }*/
-    if((msg.author.tag === 'Pibi#0120') && (msg.author.includes('si o no raza'))){
+    if((msg.author.tag === 'Pibi#0120') && (msg.content.includes('si o no raza'))){
         msg.channel.send('si :3');
     }
     //a ver al cine prro.
