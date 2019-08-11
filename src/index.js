@@ -17,12 +17,11 @@ client.on('message', msg => {
     if(msg.content === '!pibi'){
         msg.channel.send('https://cdn.discordapp.com/attachments/423743123357958144/608569014926704660/unknown.png');
     }
-});
-
-/*client.on('message', msg => {
-    if((msg.content === 'hola')||(msg.content === 'A ver')){
-        msg.channel.send(`hola ${msg.author}`);
+    //el bot contesta a oc cuando sigur escribe
+    if(client.user.tag('#9602')){
+        msg.channel.send('a oc');
     }
-});*/
+
+});
 
 client.login('NjA5Mjg1NzAzNDk0NDAyMDU4.XU0fmQ.OOOVElMx2AfAY0Vcp3HESRZDUhQ');
