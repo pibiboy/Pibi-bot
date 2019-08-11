@@ -18,7 +18,7 @@ client.on('message', msg => {
         msg.channel.send('https://cdn.discordapp.com/attachments/423743123357958144/608569014926704660/unknown.png');
     }
     //el bot contesta a oc cuando sigur escribe
-    if(client.user.tag('#9602')){
+    if(client.user.tag(9602)){
         msg.channel.send('a oc');
     }
 
