@@ -9,8 +9,8 @@ client.on('message', msg => {
     /*if(msg.author.tag === 'caliXer#0186'){
         msg.channel.send('a oc');
     }*/
-    if((msg.author.tag === 'Pibi#0120') && (msg.content.includes('si o no raza'))){
-        msg.channel.send('si :3');
+    if((msg.author.tag === 'Pibi#0120') && (msg.content.includes(''))){
+        msg.channel.send('');
     }
     
     if(msg.content.includes('')){
